@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fragment_home"
+            android:icon="@drawable/home"
+            android:title="Home"/>
+        <item
+            android:id="@+id/Events"
+            android:icon="@drawable/events"
+            android:title="Events" />
+    </group>
+
+    <item android:title="Leave">
+        <menu>
+            <item
+                android:id="@+id/sign_out"
+                android:icon="@drawable/signout"
+                android:title="Sign out"
+                />
+        </menu>
+    </item>
+
+
+</menu>

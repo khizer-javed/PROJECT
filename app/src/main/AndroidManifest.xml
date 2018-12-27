@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.khizzipool.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="HK \nProductions"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppFullScreenTheme">
+        <activity
+            android:name=".LaunchActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".User_Login"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Employee_signIn" />
+        <activity android:name=".Admin_signIn" />
+        <activity
+            android:name=".Emp_home"
+            android:label="@string/title_activity_emp_home"
+            android:theme="@style/AppFullScreenTheme" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Fragment_home" />
+        <activity android:name=".Fragment_jobs" />
+        <activity android:name=".Fragment_profile" />
+        <activity
+            android:name=".Admin_home"
+            android:label="@string/title_activity_admin_home"
+            android:theme="@style/AppFullScreenTheme" />
+        <activity android:name=".Fragment_Admin_profile" />
+        <activity android:name=".Admin_Createjob" />
+        <activity android:name=".Fragment_Admin_home" />
+        <activity android:name=".Fragment_Admin_AddEmployee" />
+        <activity android:name=".Fragment_ShowEmp" />
+    </application>
+
+</manifest>
